@@ -14,6 +14,6 @@ public class Exo4C {
         names.add("Ahmed");
         names.add("Lea");
         names.add("Blanca");
-        describeNamesLength(names); // Corrected method name
+        describeNamesLength(names);
     }
 }

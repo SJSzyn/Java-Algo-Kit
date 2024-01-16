@@ -8,7 +8,7 @@ public class Exo4A {
     }
 
     public static void main(String[] args) {
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("Jean");
         names.add("Ahmed");
         names.add("Lea");
