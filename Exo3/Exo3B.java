@@ -3,13 +3,13 @@ public class Exo3B {
         double golden = (1.0 + Math.sqrt(5.0)) / 2.0;
         double a = 2;
         double b = 1;
-
+        double c;
         while (Math.abs((a / b) - golden) > x) {
-            double temp = a;
-            a = a + b;
-            b = temp;
+            c=b;
+            b=a;
+            a=b+c;
         }
-        return new double[]{a, b};
+        return new double[] {a, b};
     }
 
     public static void main(String[] args) {
