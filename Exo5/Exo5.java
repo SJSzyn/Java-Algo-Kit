@@ -1,6 +1,6 @@
 public class Exo5 {
         public static String decrypt(String encryptedMessage) {
-            return encryptedMessage.replace("0", ""); // Replace all '0's with an empty string
+            return encryptedMessage.replace("0", "");
         }
 
         public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class Exo5 {
                     " 00(000000c0i0000000000000000000ta0ti0o00000000n" +
                     " 000000d000000000000000000e00" +
                     " 00J000o00000000000000h0n00" +
-                    " 0W00o000000000000o00000000000d0000000s0000000000)0."; // Example encrypted message
+                    " 0W00o000000000000o00000000000d0000000s0000000000)0.";
             String decryptedMessage = decrypt(encryptedMessage);
             System.out.println("Decrypted Message: " + decryptedMessage);
         }
