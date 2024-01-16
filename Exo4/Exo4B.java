@@ -8,9 +8,10 @@ public class Exo4B {
 
         public static void main(String[] args) {
             ArrayList<String> names = new ArrayList<>();
-            names.add("John");
-            names.add("Alice");
-            names.add("Bob");
+            names.add("Jean");
+            names.add("Ahmed");
+            names.add("Lea");
+            names.add("Blanca");
             describe(names);
         }
 }
