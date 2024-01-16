@@ -1,5 +1,5 @@
 public class Exo3A {
-    
+
         static int[] fibo(int num) {
             int[] FibNumbers = new int[num];
             FibNumbers[0] = 0;
